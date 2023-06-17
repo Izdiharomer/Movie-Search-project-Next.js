@@ -1,0 +1,154 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(11, 42, 48);
+  background-color:  rgb(211, 248, 236);
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(211, 248, 236);
+  color: rgb(10, 92, 92);
+}
+
+header h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+
+}
+
+header h1 svg {
+  margin-right: 10px;
+}
+
+.container{
+  background-color: rgb(88, 169, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+
+
+.button-search{
+background-color: aquamarine;
+border-radius: 15px;
+  height: 30px;
+  width: 100px;
+  
+}
+
+
+
+.button-nominate{
+  background-color: rgb(247, 252, 250);
+  border-radius: 15px;
+  height: 30px;
+  width: 100px;
+  
+  }
+
+ input {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: none;
+  
+
+}
+.input-search{
+  border: 1px solid black;
+  display: flex;
+  width: 350px;
+  border-radius: 15px;
+
+}
+
+.search-icon{
+  width: 12%;
+  color: rgb(11, 85, 85);
+  margin-top: 7px;
+  
+ 
+}
+.input-search input{
+background-color: transparent;
+width: 350px;
+font-size: 1.2em;
+
+}
+
+.input-search input:focus {
+  outline: none;
+  border: none;
+}
+
+
+.container-search{
+ min-height: 100vh;
+ width: 800px;
+ margin: 5px;
+ padding: 5px;
+
+}
+
+.container-nominate{
+ min-height: 100vh;
+ width: 800px;
+ padding: 15px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.nominate-list{
+  display: flex;
+  list-style: none;
+  
+}
+
+ul{
+  list-style: none;
+}
+
+h2{
+  margin-left: 190px;
+ 
+}
+
+.delete-icon{
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.delete-icon:hover{
+  color: brown;
+}

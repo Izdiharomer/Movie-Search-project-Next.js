@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["app/*"],
+      "@/api/*": ["./app/api/*"]
+    }
+  },
+  "include": [
+    "app/**/*"
+  ]
+}
